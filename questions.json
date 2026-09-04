@@ -1,0 +1,171 @@
+{
+  "Python": {
+    "Easy": [
+      {"question": "What is a list in Python?", "answer": "A list is an ordered and mutable collection of elements."},
+      {"question": "What is a tuple in Python?", "answer": "A tuple is an ordered and immutable collection of elements."},
+      {"question": "What is a variable in Python?", "answer": "A variable is a name used to store a value."}
+    ],
+    "Medium": [
+      {"question": "What is a decorator in Python?", "answer": "A decorator modifies or extends the behavior of another function."},
+      {"question": "What is a dictionary in Python?", "answer": "A dictionary stores data as key-value pairs."},
+      {"question": "What is list comprehension?", "answer": "List comprehension is a short way to create a list using an expression and loop."}
+    ],
+    "Hard": [
+      {"question": "What is a generator in Python?", "answer": "A generator produces values one at a time using the yield keyword."},
+      {"question": "What is the difference between deep copy and shallow copy?", "answer": "A shallow copy shares nested objects, while a deep copy recursively creates independent copies."}
+    ]
+  },
+
+  "Java": {
+    "Easy": [
+      {"question": "What is Java?", "answer": "Java is a high-level, object-oriented programming language."},
+      {"question": "What is a class in Java?", "answer": "A class is a blueprint for creating objects."},
+      {"question": "What is an object in Java?", "answer": "An object is an instance of a class."}
+    ],
+    "Medium": [
+      {"question": "What is inheritance in Java?", "answer": "Inheritance allows one class to acquire properties and methods of another class."},
+      {"question": "What is method overloading?", "answer": "Method overloading means having methods with the same name but different parameters."},
+      {"question": "What is an interface in Java?", "answer": "An interface defines a contract that implementing classes must follow."}
+    ],
+    "Hard": [
+      {"question": "What is multithreading in Java?", "answer": "Multithreading allows multiple threads to execute concurrently."},
+      {"question": "What is garbage collection in Java?", "answer": "Garbage collection automatically removes objects that are no longer reachable."}
+    ]
+  },
+
+  "C": {
+    "Easy": [
+      {"question": "What is a pointer in C?", "answer": "A pointer is a variable that stores the memory address of another variable."},
+      {"question": "What is an array in C?", "answer": "An array stores multiple values of the same data type."},
+      {"question": "What is a function in C?", "answer": "A function is a block of code designed to perform a specific task."}
+    ],
+    "Medium": [
+      {"question": "What is a structure in C?", "answer": "A structure is a user-defined data type that groups different types of data."},
+      {"question": "What is dynamic memory allocation?", "answer": "It allows memory to be allocated during program execution using functions such as malloc."},
+      {"question": "What is a NULL pointer?", "answer": "A NULL pointer does not point to a valid memory location."}
+    ],
+    "Hard": [
+      {"question": "What is a dangling pointer?", "answer": "A dangling pointer points to memory that has already been freed or is no longer valid."},
+      {"question": "What is a function pointer?", "answer": "A function pointer stores the address of a function."}
+    ]
+  },
+
+  "C++": {
+    "Easy": [
+      {"question": "What is C++?", "answer": "C++ is a general-purpose programming language that supports object-oriented programming."},
+      {"question": "What is a class in C++?", "answer": "A class is a user-defined blueprint containing data members and functions."},
+      {"question": "What is a constructor?", "answer": "A constructor is automatically called when an object is created."}
+    ],
+    "Medium": [
+      {"question": "What is polymorphism?", "answer": "Polymorphism allows the same interface or function name to behave differently."},
+      {"question": "What is inheritance?", "answer": "Inheritance allows a class to reuse properties and functions of another class."},
+      {"question": "What is function overloading?", "answer": "Function overloading allows multiple functions with the same name but different parameters."}
+    ],
+    "Hard": [
+      {"question": "What is a virtual function?", "answer": "A virtual function enables runtime polymorphism in C++."},
+      {"question": "What is the difference between stack and heap memory?", "answer": "Stack memory is automatically managed, while heap memory is dynamically allocated."}
+    ]
+  },
+
+  "JavaScript": {
+    "Easy": [
+      {"question": "What is JavaScript?", "answer": "JavaScript is a programming language commonly used to make web pages interactive."},
+      {"question": "What is a variable in JavaScript?", "answer": "A variable stores a value and can be declared using var, let, or const."},
+      {"question": "What is an array?", "answer": "An array stores multiple values in a single variable."}
+    ],
+    "Medium": [
+      {"question": "What is a callback function?", "answer": "A callback is a function passed to another function to be executed later."},
+      {"question": "What is an arrow function?", "answer": "An arrow function is a shorter syntax for writing functions."},
+      {"question": "What is a Promise?", "answer": "A Promise represents the eventual completion or failure of an asynchronous operation."}
+    ],
+    "Hard": [
+      {"question": "What is the event loop?", "answer": "The event loop allows JavaScript to handle asynchronous operations."},
+      {"question": "What is closure in JavaScript?", "answer": "A closure allows a function to remember variables from its outer scope."}
+    ]
+  },
+
+  "C#": {
+    "Easy": [
+      {"question": "What is C#?", "answer": "C# is a modern, object-oriented programming language developed by Microsoft."},
+      {"question": "What is a class in C#?", "answer": "A class is a blueprint used to create objects."},
+      {"question": "What is an object?", "answer": "An object is an instance of a class."}
+    ],
+    "Medium": [
+      {"question": "What is inheritance in C#?", "answer": "Inheritance allows a class to reuse members of another class."},
+      {"question": "What is an interface?", "answer": "An interface defines a contract that implementing classes must follow."},
+      {"question": "What is method overloading?", "answer": "It allows methods with the same name but different parameters."}
+    ],
+    "Hard": [
+      {"question": "What is LINQ?", "answer": "LINQ allows querying collections and data sources using a consistent syntax."},
+      {"question": "What is garbage collection in C#?", "answer": "The garbage collector automatically manages memory by removing unused objects."}
+    ]
+  },
+
+  "Go": {
+    "Easy": [
+      {"question": "What is Go?", "answer": "Go is a statically typed programming language developed at Google."},
+      {"question": "What is a goroutine?", "answer": "A goroutine is a lightweight thread managed by the Go runtime."},
+      {"question": "What is a package in Go?", "answer": "A package is a collection of related Go source files."}
+    ],
+    "Medium": [
+      {"question": "What is a channel in Go?", "answer": "A channel allows goroutines to communicate with each other."},
+      {"question": "What is concurrency in Go?", "answer": "Concurrency allows multiple tasks to make progress independently."},
+      {"question": "What is an interface in Go?", "answer": "An interface specifies a set of method signatures."}
+    ],
+    "Hard": [
+      {"question": "What is a mutex in Go?", "answer": "A mutex is used to protect shared data from simultaneous access."},
+      {"question": "What is the difference between concurrency and parallelism?", "answer": "Concurrency deals with managing multiple tasks, while parallelism executes tasks simultaneously."}
+    ]
+  },
+
+  "PHP": {
+    "Easy": [
+      {"question": "What is PHP?", "answer": "PHP is a server-side scripting language commonly used for web development."},
+      {"question": "What is a variable in PHP?", "answer": "A PHP variable stores a value and starts with the $ symbol."},
+      {"question": "What is an array in PHP?", "answer": "An array stores multiple values in a single variable."}
+    ],
+    "Medium": [
+      {"question": "What is a session in PHP?", "answer": "A session stores user information across multiple pages."},
+      {"question": "What is a cookie?", "answer": "A cookie stores small amounts of information on the user's browser."},
+      {"question": "What is an associative array?", "answer": "An associative array stores values using named keys."}
+    ],
+    "Hard": [
+      {"question": "What is PDO in PHP?", "answer": "PDO is a PHP interface used to access databases securely."},
+      {"question": "What is prepared statement?", "answer": "A prepared statement helps execute SQL queries safely and reduces SQL injection risk."}
+    ]
+  },
+
+  "SQL": {
+    "Easy": [
+      {"question": "What is SQL?", "answer": "SQL stands for Structured Query Language and is used to work with relational databases."},
+      {"question": "What is a primary key?", "answer": "A primary key uniquely identifies each row in a table."},
+      {"question": "What is a table?", "answer": "A table stores data in rows and columns."}
+    ],
+    "Medium": [
+      {"question": "What is a JOIN in SQL?", "answer": "A JOIN combines rows from two or more tables using related columns."},
+      {"question": "What is normalization?", "answer": "Normalization organizes database data to reduce redundancy."},
+      {"question": "What is a foreign key?", "answer": "A foreign key links one table to the primary key of another table."}
+    ],
+    "Hard": [
+      {"question": "What is an index in SQL?", "answer": "An index improves the speed of data retrieval from a database."},
+      {"question": "What is a subquery?", "answer": "A subquery is a query written inside another SQL query."}
+    ]
+  },
+
+  "Kotlin": {
+    "Easy": [
+      {"question": "What is Kotlin?", "answer": "Kotlin is a modern programming language commonly used for Android development."},
+      {"question": "What is a variable in Kotlin?", "answer": "A variable stores a value and can be declared using val or var."},
+      {"question": "What is a nullable type?", "answer": "A nullable type can contain a value or null."}
+    ],
+    "Medium": [
+      {"question": "What is a data class in Kotlin?", "answer": "A data class is mainly used to hold data and automatically provides useful methods."},
+      {"question": "What is a companion object?", "answer": "A companion object allows members to be associated with a class rather than its instances."},
+      {"question": "What is an extension function?", "answer": "An extension function adds functionality to an existing class without modifying it."}
+    ],
+    "Hard": [
+      {"question": "What are coroutines in Kotlin?", "answer": "Coroutines provide a way to write asynchronous and concurrent code more easily."},
+      {"question": "What is null safety in Kotlin?", "answer": "Null safety helps prevent null pointer exceptions by distinguishing nullable and non-nullable types."}
+    ]
+  }
+}
